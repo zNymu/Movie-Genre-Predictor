@@ -1,29 +1,22 @@
 # Movie Genre Predictor
-
 This application uses machine learning to predict movie genres based on plot summaries. It demonstrates text classification using TF-IDF features and multi-label classification.
 
-![Screenshot of the application](screenshots/app_screenshot.png)
-
+![Screenshot 2025-04-12 124931](https://github.com/user-attachments/assets/8f0bf958-1c54-44ec-951e-45be0743c5c7)
 ## Features
-
 - Multi-label genre prediction from textual movie plots
 - TF-IDF vectorization for text feature extraction
 - Logistic Regression with OneVsRest classification
 - Interactive GUI with confidence threshold adjustment
 - Color-coded prediction confidence visualization
-
 ## Setup Instructions
-
 ### Requirements
 - Python 3.7+
 - Required packages: pandas, scikit-learn, numpy, tkinter (usually included with Python)
-
 ### Installation
-
 1. Clone the repository:
 ```bash
-git clone https://github.com/your-username/movie-genre-predictor.git
-cd movie-genre-predictor
+git clone https://github.com/zNymu/MovieGenrePredictor.git
+cd MovieGenrePredictor
 pip install pandas scikit-learn numpy
 ```
 
@@ -50,12 +43,6 @@ After the model is trained, you can run the application:
 
 ```bash
 python genre_predictor_app.py
-```
-
-Or for the enhanced version:
-
-```bash
-python enhanced_genre_predictor_app.py
 ```
 
 ## Application Features
